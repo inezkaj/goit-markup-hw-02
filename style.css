@@ -19,10 +19,6 @@ body {
   color: var(--navyblue, #2e2f42);
   font-weight: 500;
 }
-.linkaddress {
-  font-style: normal;
-}
-
 .logo:hover,
 .logo:focus,
 .logo-item:hover,
@@ -48,7 +44,7 @@ body {
 
 .list1-item,
 .list2-item {
-  olor: var(--navyblue, #2e2f42);
+  color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
