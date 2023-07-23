@@ -1,15 +1,23 @@
 body {
   font-family: "Roboto", "Raleway";
   font-size: 16px;
-  line-height: 150%;
   color: var(--slate, #434455);
+}
+body a {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--slate, #434455);
+}
+ul {
+  list-style: none;
 }
 .logo {
   color: var(--navyblue, #2e2f42);
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   font-family: "Raleway";
+  letter-spacing: 0.54px;
 }
 .logo-item {
   color: var(--iris, #4d5ae5);
@@ -18,28 +26,48 @@ body {
 .menu-item {
   color: var(--navyblue, #2e2f42);
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.linkaddress {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .logo:hover,
 .logo:focus,
 .logo-item:hover,
 .logo-item:focus,
+.logo2:hover,
+.logo2:focus,
 .menu-item:hover,
 .menu-item:focus,
 .linkaddress:hover,
 .linkaddress:focus {
-  color: orange;
+  color: var(--ocean, #404bbf);
+}
+
+.background-item {
+  background-color: var(--navyblue, #2e2f42);
+}
+.backgroundteam-item {
+  background: var(--cloud, #f4f4fd);
 }
 
 .name-item {
   color: var(--white, #fff);
   font-size: 56px;
   font-weight: 700;
-  line-height: 107.143%;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 .button-order {
   color: var(--white, #fff);
   font-weight: 500;
   cursor: pointer;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--iris, #4d5ae5);
 }
 
 .list1-item,
@@ -47,13 +75,24 @@ body {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 .title-item {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.list-description,
+.list-description2 {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.background-footer {
+  background: var(--navyblue, #2e2f42);
 }
 .logo2 {
   color: var(--cloud, #f4f4fd);
@@ -64,22 +103,38 @@ body {
 }
 .footer-item {
   color: var(--cloud, #f4f4fd);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .button-all {
   color: var(--white, #fff);
   font-weight: 500;
   cursor: pointer;
+  background: var(--ocean, #404bbf);
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 .button-list {
   color: var(--iris, #4d5ae5);
   font-weight: 500;
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--cloud, #f4f4fd);
 }
 .button-order:hover,
-.button-order:focus,
+.button-order:focus {
+  background: var(--ocean, #404bbf);
+}
 .button-all:hover,
-.button-all:focus,
+.button-all:focus {
+  background: var(--iris, #4d5ae5);
+}
+
 .button-list:hover,
 .button-list:focus {
   color: red;
+}
+.portfolio-background {
+  background: #fff;
 }
