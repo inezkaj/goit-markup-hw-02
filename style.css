@@ -1,18 +1,22 @@
 body {
   font-family: "Roboto", "Raleway";
   font-size: 16px;
-  color: var(--slate, #434455);
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
 }
 body a {
   text-decoration: none;
   font-style: normal;
-  color: var(--slate, #434455);
+  color: var(--slate);
 }
 ul {
   list-style: none;
 }
 .logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -20,11 +24,11 @@ ul {
   letter-spacing: 0.54px;
 }
 .logo-item {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
 }
 
 .menu-item {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -43,43 +47,44 @@ ul {
 .menu-item:focus,
 .linkaddress:hover,
 .linkaddress:focus {
-  color: var(--ocean, #404bbf);
+  color: var(--ocean);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .background-item {
   background-color: var(--navyblue, #2e2f42);
 }
 .backgroundteam-item {
-  background: var(--cloud, #f4f4fd);
+  background: var(--cloud);
 }
-
 .name-item {
-  color: var(--white, #fff);
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .button-order {
-  color: var(--white, #fff);
+  color: #fff;
   font-weight: 500;
   cursor: pointer;
   font-family: inherit;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  background: var(--iris, #4d5ae5);
+  background: var(--iris);
 }
-
 .list1-item,
 .list2-item {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .title-item {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -92,48 +97,38 @@ ul {
   letter-spacing: 0.32px;
 }
 .background-footer {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
 }
 .logo2 {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   font-size: 18px;
   font-weight: 800;
   line-height: 116.667%;
   font-family: "Raleway";
 }
 .footer-item {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.button-all {
-  color: var(--white, #fff);
-  font-weight: 500;
-  cursor: pointer;
-  background: var(--ocean, #404bbf);
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-}
 .button-list {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   font-weight: 500;
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  background: var(--cloud, #f4f4fd);
+  background: var(--cloud);
+  font-family: inherit;
+  font-size: 16px;
 }
 .button-order:hover,
 .button-order:focus {
-  background: var(--ocean, #404bbf);
+  background: var(--ocean);
 }
-.button-all:hover,
-.button-all:focus {
-  background: var(--iris, #4d5ae5);
-}
-
 .button-list:hover,
 .button-list:focus {
-  color: red;
+  color: #fff;
+  background: var(--ocean);
 }
 .portfolio-background {
   background: #fff;
